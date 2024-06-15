@@ -22,13 +22,13 @@ justify-content: space-between;
 }
 h1{
     font-family: "Bitter", serif;
-    font-size: 40px;
+    font-size: 55px;
     color: #fff;
     position: absolute;
     z-index: 2;
-    width: 428px;
+    width: 500px;
     left: 5%;
-    top: 16%
+    top: 15%
 }
 .num-text1{
     z-index: 1;
@@ -50,10 +50,11 @@ h1{
     color: #fff;
     position: absolute;
     z-index: 1;
-    top: 34%;
+    top: 38%;
     left: 5%;
     width: 380px;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 300;
 }
 button{
     left: 5%;
@@ -63,8 +64,14 @@ button{
     border-radius: 25px;
     background-color: #fff;
     position: absolute;
-    top: 46%;
+    top: 49%;
     width: 200px;
+}
+button:hover{
+    background-color: #592F91;
+    color: #fff;
+    border: 1px solid #fff;
+    transition-duration: 0.5s;
 }
 .cards{
  
@@ -89,10 +96,25 @@ button{
 }
 .card p{
     margin: 5px 5px  15px 20px;
-    font-size: 13px;
+    font-size: 14px;
     padding-bottom: 20px ;
+    font-weight: 300;
 }
 h3{
     margin: 15px 20px;
    
+}
+.num-text4 , .num-text5{
+ position: absolute;
+ right: 32%;
+ color: #fff;
+}
+.num-text4{
+    font-size: 40px;
+    top: 61%;
+}
+.num-text5{
+    font-size: 12px;
+    top: 71%;
+    right: 32%;
 }
